@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml-->
+<!-- pages/home/home.wxml -->
+<view class="container">
+  <text>商城主页推荐</text>
+</view>

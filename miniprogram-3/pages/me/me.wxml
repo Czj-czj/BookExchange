@@ -1,0 +1,25 @@
+<!--pages/me/me.wxml-->
+<view class="container">
+  <!-- 基本信息 -->
+  <view class="profile">
+    <image class="avatar" src="{{userInfo.avatarUrl}}" />
+    <view class="info">
+      <view class="username">{{userInfo.nickName}}</view>
+      <view class="mobile">{{userInfo.mobile}}</view>
+    </view>
+  </view>
+  <!-- 订单列表 -->
+  <view class="orders">
+    <view class="title">我的订单</view>
+    <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber"></button>
+    <view class="list">
+      <block wx:for="{{orders}}" wx:key="id">
+        <view class="item">
+          <view class="name">{{item.name}}</view>
+          <view class="price">{{item.price}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+

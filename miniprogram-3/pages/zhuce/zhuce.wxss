@@ -1,0 +1,37 @@
+/* pages/zhuce/zhuce.wxss *//* register.wxss */
+
+.container {
+  padding: 30rpx;
+}
+
+.input-container {
+  /* display: flex; */
+  margin-bottom: 20rpx;
+}
+
+.label {
+  width: 200rpx;
+  font-size: 28rpx;
+  line-height: 80rpx;
+}
+
+input,
+textarea {
+  flex: 1;
+  height: 80rpx;
+  padding: 0 20rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 10rpx;
+}
+
+button {
+  width: 100%;
+  height: 100rpx;
+  margin-top: 30rpx;
+  border-radius: 10rpx;
+  background-color: #007aff;
+  color: #fff;
+  font-size: 32rpx;
+  line-height: 100rpx;
+  text-align: center;
+}
